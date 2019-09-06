@@ -27,6 +27,7 @@ var john = {
     tips: [],
     finalPaid: [],
     izracunaj: function(){
+        console.log(arguments);
         for(var i=0; i < this.bils.length; i++){
             if(this.bils[i] < 50){
                 this.tips.push(this.bils[i]*0.2);
@@ -50,6 +51,7 @@ var mark = {
     tips: [],
     finalPaid: [],
     izracunaj: function(){
+        console.log(arguments);
         for(var i=0; i < this.bils.length; i++){
             if(this.bils[i] < 100){
                 this.tips.push(this.bils[i]*0.2);
