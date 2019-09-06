@@ -1,0 +1,1 @@
+ctrl+shift+P and enter git clone, set url of repository and that is it
