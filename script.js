@@ -82,8 +82,8 @@ console.log("Tips za John-a pre izracunavanja: " + john.tips);
 console.log("Final paid za John-a pre izracunavanja: " + john.finalPaid);
 
 john.izracunaj();
-console.log("Tips za John-a pre izracunavanja: " + john.tips);
-console.log("Final paid za John-a pre izracunavanja: " + john.finalPaid);
+console.log("Tips za John-a posle izracunavanja: " + john.tips);
+console.log("Final paid za John-a posle izracunavanja: " + john.finalPaid);
 
 avgTipJohn = averageTip(john.tips);
 console.log("John average tips: " + avgTipJohn);

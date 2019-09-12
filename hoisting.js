@@ -15,14 +15,14 @@ Hoisting, scope chain and "this" excercise
 
 */
 
-f1();  // Hoisting - it will work because of Hhoisting
+f1();  // Hoisting - it will work because of hoisting
 
 function f1(){
     console.log("It works!");
 }
 
 /*
-//It will not work because of Create Exxecutio Phase, variables are on start declare as undefined, and function like pointers
+//It will not work because of Create Execution Phase, variables are on start declare as undefined, and function like pointers
 //That is the reason of error, f2 is here a variable that is declared as undefined, and browser does not know that f2 is a function
 f2();
 
