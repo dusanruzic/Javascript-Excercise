@@ -1,0 +1,18 @@
+WEBPACK - for bundling more js into one bundle.js
+BABEL - for converting ES6 to ES5
+
+WEBPACK - first we create webpack.config.js file, always with same structure. We need to npm install and npm install --save-dev all dependencies.
+
+BABEL - we create .babelrs file always with same structure. First we need to install required packages with npm . On the end, we add babel polyfill for some
+parts of ES6 that can not be transform to ES5, instead it will have to be added in code (like promises)
+
+COMMANDS:
+-npm init - we create package.json file
+
+-npm install - we install all required packages from package.json
+-npm install somePackage  - on that way, we install packages needed in runtime
+-npm install someDevPackage --save-dev   - on that way, we install packages needed for development
+-npm uninstall somePackage
+
+-npm run dev - we call dev script from package.json file
+-npm start - we call start script from package.json file, which open our server
